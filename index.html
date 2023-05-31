@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Quest Form</title>
+    
+</head>
+
+<body>
+    <main class="main">
+        <div class="duvida">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="texto">caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos
+                em contato em menos de 24h.</p>
+        </div>
+        <div class="form" id="form">
+            <form action="#" method="post">
+                <div class="form-control">
+                    <input class="obrigatorio" type="name" placeholder="Nome completo*" name="usuario_nome">
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input class="obrigatorio" type="email" placeholder="Email*" name="usuario_email">
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input class="obrigatorio" type="number" placeholder="Telefone*" name="usuario_telefone">
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <textarea class="obrigatorio" cols="30" rows="10" name="usuario_msg" placeholder=" Mensagem*"></textarea>
+                    <small></small>
+                </div>
+                <p class="campo-obrig">*campos obrigatórios</p>
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/scripts.js"></script>
+</body>
+
+</html>
