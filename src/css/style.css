@@ -37,6 +37,9 @@
     transform: translate(-50%,-50%); */
 }
 
+.form-control {
+    position: relative;
+}
 
 .form-control input,
 textarea {
@@ -61,7 +64,7 @@ textarea {
     position: absolute;
     bottom: 0;
     left: 0;
-    visibility: hidden;
+    display: none;
 }
 
 .button button {
@@ -85,6 +88,6 @@ textarea {
 }
 
 .error small{
-    display: block;
+    display: initial;
     color: #e74c3c;
 }
