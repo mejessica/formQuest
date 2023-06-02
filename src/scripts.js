@@ -1,44 +1,40 @@
-const form = document.getElementById('form')
-const campoObrigatorio = document.querySelectorAll(".form-control")
-const inputs = document.querySelectorAll("input, textarea")
+document.addEventListener('DOMContentLoaded', (event) => {
+    const form = document.getElementById('form')
+    const inputs = document.querySelectorAll(".obrigatorio")
 
-form.addEventListener('submit', (e) => {
-
-    e.preventDefault();
-
-    checkInputs();
-
-    console.log(inputs)
-
-});
-
-function checkInputs() {
-    inputs.forEach(inputs => {
-        if (inputs.value === '') {
-            setError(inputs, "campo obrigatório");
-        } else {
-            setSuccess(inputs)
-        }
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        checkInputs();
     });
-}
 
-function setError(inputs, message) {
-    const small = document.querySelector('small')
-    
-    small.innerText = message;
-    
-    inputs.classList.remove('success')
-    inputs.classList.add('error')
-}
+    function checkInputs() {
+        inputs.forEach(input => {
+            const small = input.parentElement.querySelector('small');
 
-function setSuccess(inputs) {
-    inputs.classList.remove('error')
-    inputs.classList.add('success')
-}
+            if (input.value.trim() === '') {
+                setError(input, small, "Campo obrigatório");
+            } else {
+                setSuccess(input, small);
+            }
+        });
+    }
 
+    function setError(input, small, message) {
 
+        // console.log("input", input)
+        // console.log("small", small)
+        // console.log("message", message)
 
+        small.innerText = message;
+        small.style.display = 'block';
+        input.classList.remove('success');
+        input.classList.add('error');
+    }
 
-
-
-
+    function setSuccess(input, small) {
+        small.innerText = '';
+        small.style.display = 'none';
+        input.classList.remove('error');
+        input.classList.add('success');
+    }
+});
