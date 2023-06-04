@@ -37,6 +37,9 @@
     transform: translate(-50%,-50%); */
 }
 
+.form-control {
+    position: relative;
+}
 
 .form-control input,
 textarea {
@@ -48,20 +51,20 @@ textarea {
     padding: 10px;
     border: 1px solid #000000;
     color: #A8A8A8;
+    margin-bottom: 20px;
 
 }
 
 .campo-obrig {
     font-size: 20px;
-  
-    margin: 1px 0 50px 0;
+    margin: 5px 0 50px 0;
 }
 
 .form-control small{
     position: absolute;
     bottom: 0;
     left: 0;
-    visibility: hidden;
+    display: none;
 }
 
 .button button {
@@ -74,17 +77,5 @@ textarea {
     font-weight: 700;
     border-style: none;
     cursor:pointer;
-}
-
-.success{
-    border-color: #2ecc71;
-}
-
-.error{
-    border-color: #e74c3c;
-}
-
-.error small{
-    display: block;
-    color: #e74c3c;
+    
 }
