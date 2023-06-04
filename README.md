@@ -1,7 +1,7 @@
 
 # Projeto FormQuest com Validação de formulário em JS
 
-O projeto foi feito para apredner e estudar JS
+O projeto foi feito para aprender e estudar JS
 
 ## Linguagens usadas
 
