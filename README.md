@@ -15,5 +15,5 @@ Encontrei mais dificuldade na parte do JS por ainda estar apredendendo, principa
 
 ## Final
 
-![image](https://github.com/mejessica/formQuest/assets/82670472/8df6c4e9-c848-42cb-b54f-f72fa47db946)
-![image](https://github.com/mejessica/formQuest/assets/82670472/b9e79112-7be5-467c-b089-58dcfa97ff52)
+![image](https://github.com/mejessica/formQuest/assets/82670472/da3c750c-6186-47fb-a7d4-84bc44555625)
+![image](https://github.com/mejessica/formQuest/assets/82670472/97eab38e-935d-4b99-bd25-875d658c4bbf)
