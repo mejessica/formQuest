@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             const small = input.parentElement.querySelector('small');
 
             if (input.value.trim() === '') {
-                setError(input, small, "Campo obrigatório");
+                setError(input, small, "campo obrigatório");
             } else {
                 setSuccess(input, small);
             }

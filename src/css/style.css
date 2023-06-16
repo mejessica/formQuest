@@ -4,7 +4,7 @@
     display: flex;
     width: 100%;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .duvida {
@@ -28,13 +28,11 @@
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 378px;
+    height: 820px;
     background-color: #fff;
-    height: 90%;
     padding: 20px 35px 35px 35px;
-    /* left: 50%;
-    top:50%;
-    transform: translate(-50%,-50%); */
+    position: absolute;
+    top: 50px;
 }
 
 .form-control {
@@ -43,20 +41,22 @@
 
 .form-control input,
 textarea {
-    font-weight: 700;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    border-radius: 10px;
+    font-size: 25px;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #000000;
     color: #A8A8A8;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    resize: none;
 }
 
 .campo-obrig {
-    font-size: 20px;
-    margin: 20px 0 50px 5px;
+    font-size: 23px;
+    margin: 0px 0 30px 5px;
+    font-weight: 600;
 }
 
 .form-control small{
@@ -64,13 +64,14 @@ textarea {
     bottom: 0;
     left: 0;
     display: none;
+    
 }
 
 .button button {
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
-    height: 60px;
-    border-radius: 5px;
+    height: 70px;
+    border-radius: 10px;
     background-color: #3CCC87;
     color: #fff;
     font-weight: 700;
