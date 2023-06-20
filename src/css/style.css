@@ -178,18 +178,18 @@ textarea {
     }
 
     .duvida {
-        margin-top: 4rem;
-        margin-left: 4rem;
-        width: 40%;
+        margin-top: 6rem;
+        margin-left: 6rem;
+        width: 50%;
         text-align: left;
     }
 
     .duvida h1 {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .duvida p {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .form form {
@@ -200,7 +200,7 @@ textarea {
     }
 
     .form {
-        justify-content: right;
+        justify-content: center;
         display: flex;
     }
 
