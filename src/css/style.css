@@ -2,9 +2,10 @@
     background: url(../img/bg-repeat.jpg);
     background-size: contain;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    
+    flex-wrap: wrap;
+
 }
 
 .duvida {
@@ -33,6 +34,8 @@
     padding: 20px 35px 35px 35px;
     position: absolute;
     top: 50px;
+
+
 }
 
 .form-control {
@@ -59,12 +62,12 @@ textarea {
     font-weight: 600;
 }
 
-.form-control small{
+.form-control small {
     position: absolute;
     bottom: 0;
     left: 0;
     display: none;
-    
+
 }
 
 .button button {
@@ -76,6 +79,148 @@ textarea {
     color: #fff;
     font-weight: 700;
     border-style: none;
-    cursor:pointer;
-    
+    cursor: pointer;
+
+}
+
+@media(max-width: 480px) {
+
+    .main {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .duvida {
+        margin: 80px 50px 50px 50px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .duvida h1 {
+        font-size: 30px;
+    }
+
+    .duvida p {
+        font-size: 28px;
+    }
+
+    .form form {
+        justify-content: center;
+        display: flex;
+    }
+
+    .form {
+        position: relative;
+    }
+
+    .form-control input,
+    textarea {
+        font-size: 20px;
+        width: 55%;
+        margin-left: 5px;
+    }
+
+    .button button {
+        width: 55%;
+    }
+}
+
+
+@media(min-width: 687px) and (max-width:1023px) {
+    .main {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .duvida {
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .duvida h1 {
+        font-size: 20px;
+    }
+
+    .duvida p {
+        font-size: 20px;
+    }
+
+    .form form {
+        margin-top: 0;
+        height: 700px;
+        position: relative;
+
+    }
+
+    .form {
+        justify-content: center;
+        display: flex;
+    }
+
+    .form-control input,
+    textarea {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .button button {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1024px) and (max-width:1919px) {
+    .main {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .duvida {
+        margin-top: 4rem;
+        margin-left: 4rem;
+        width: 40%;
+        text-align: left;
+    }
+
+    .duvida h1 {
+        font-size: 18px;
+    }
+
+    .duvida p {
+        font-size: 18px;
+    }
+
+    .form form {
+        margin-top: 0;
+        height: 520px;
+        width: 450px;
+        position: relative;
+    }
+
+    .form {
+        justify-content: right;
+        display: flex;
+    }
+
+    .form-control input,
+    textarea {
+        font-size: 15px;
+        width:100%;
+        margin-top: 2px;
+    }
+    .form-control textarea{
+        height: 10rem;
+    }
+    .campo-obrig {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .button button {
+        width: 100%;
+        font-size: 15px;
+        height:50px;
+    }
 }
