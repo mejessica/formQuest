@@ -10,6 +10,6 @@ Projeto feito com o intuito de estudar e treinar JS
 A maior dificuldade foi na parte do JS por ainda estar aprendendo, principalmente na parte do código para validar os inputs. Com isso aprendi muito pesquisando.
 
 ## Final
-![image](https://github.com/mejessica/formQuest/assets/82670472/0365b6df-7dd2-4caf-a698-a639fc3216ea)
-![image](https://github.com/mejessica/formQuest/assets/82670472/d7e4b9ef-4a34-4b8f-8fee-e0df952120df)
+![picasion com_fc0c190a46baa5134db66837cabc0009](https://github.com/mejessica/formQuest/assets/82670472/7a62d9b9-2b1d-4000-8d02-267c74d2cedf)
+
 
